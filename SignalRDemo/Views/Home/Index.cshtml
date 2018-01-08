@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+@section css{
+<style>
+    .table th, .table td {
+        text-align: center;
+        vertical-align: middle !important;
+    }  
+</style>
+}
+<div style="height:20px"></div>
+<div id="infoTable">
+    <table class="table">
+        <thead>
+            <tr><th>信息ID</th><th>管道编号</th><th>分区编号</th><th>报警等级</th><th>报警值</th><th>报警时间</th></tr>
+        </thead>
+        <tbody>
+            <tr class="loading"><td colspan="6">加载中...</td></tr>
+        </tbody>
+    </table>
+</div>
+
+@section scripts{ 
+<script src="Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/jquery.signalR-2.2.2.min.js"></script>
+<script src="/signalr/hubs"></script>
+<script src="Scripts/WarningInfoCollector.js"></script>
+}
