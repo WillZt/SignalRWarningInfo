@@ -12,3 +12,4 @@ UDF函数的制作和创建 详见：https://github.com/WillZt/udf_http
 
 ## 参考资料
 1. http://www.80iter.com/blog/1445924381310757
+### 注：集日月之精华，采网友之智慧
